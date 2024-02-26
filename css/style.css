@@ -1,0 +1,66 @@
+.btn {
+    background-color: chocolate;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-color: lawngreen;
+    transition: all 0.5s;
+    margin: 15px;
+}
+
+.btn1:hover {
+    background-color: rgb(255, 221, 0);
+    color: green;
+    transform: scale(1.2);
+}
+
+.btn2:active {
+    transform: scale(0.9);
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    color: red;
+}
+
+.login:focus {
+    border: none;
+    border-bottom: 1px solid green;
+    background-color: rgba(0, 128, 0, 0.1);
+    outline: none;
+}
+
+.login:disabled {
+    border-color: red;
+}
+
+.check:checked+span {
+    color: green;
+    border-bottom: 1px dashed green;
+}
+
+.block-image {
+    border: 2px solid green;
+    display: inline-block;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.image:last-child {
+    margin-right: 0px;
+}
+
+.image:first-child {
+    content: '\1f604';
+    font-size: 50px;
+    background-color: bisque;
+}
+
+.item::after {
+    content: '\1f352';
+}
